@@ -21,6 +21,17 @@
     --background-linear-dark: linear-gradient(to bottom, hsl(232, 19%, 15%) 230px, hsl(230, 17%, 14%) 0%);
 }
 
+.light {
+    --toggle: hsl(230, 22%, 74%);
+    --toggle-hover: linear-gradient(to right, hsl(210, 78%, 56%) 0%, hsl(146, 68%, 55%) 100%);
+    --background-linear-light: linear-gradient(to bottom, hsl(225, 100%, 98%) 230px, hsl(0, 0%, 100%) 0);
+    --top-bg-pattern: hsl(225, 100%, 98%);
+    --card-bg: hsl(227, 47%, 96%);
+    --primary-text: hsl(230, 17%, 14%);
+    --secondary-text-color: hsl(228, 12%, 44%);
+    --brightness: brightness(85%);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -33,9 +44,25 @@ body {
     font-size: 14px;
     font-family: 'Inter',
         sans-serif;
-    background: var(--background-linear-dark);
-    color: #ffffff;
+    background: var(--background-linear-light);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: var(--primary-text);
 }
+
+/* Main Container Styling */
+.contianer {
+    max-width: 1140px;
+    height: 100%;
+    margin: 50px auto;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+/* End Main Container Styling */
 
 /* Custom Toggle Switch */
 /* The switch - the box around the slider */
