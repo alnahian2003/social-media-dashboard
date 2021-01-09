@@ -19,7 +19,7 @@
 
 </head>
 
-<body>
+<body class="">
   <!-- Main Container -->
   <div class="contianer">
     <!-- Header Area -->
@@ -34,7 +34,7 @@
         </div>
         <div class="dark-mode-toggle">
           <label class="switch">
-            <input type="checkbox" class="toggle-switch">
+            <input id="toggleSwitch" type="checkbox" class="toggle-switch">
             <span class="slider round"></span>
           </label>
         </div>
@@ -53,7 +53,10 @@
             <h2>1987</h2>
             <span>FOLLOWERS</span>
           </div>
-          <span class="todays-stats"><img src="./images/icon-up.svg" alt="up">12 Today</span>
+          <span class="todays-stats">
+            <img src="./images/icon-up.svg" alt="up">
+            12 Today
+          </span>
         </div>
         <div class="card">
           <div class="usern-info">
@@ -64,7 +67,7 @@
             <h2>1044</h2>
             <span>FOLLOWERS</span>
           </div>
-          <span class="todays-stats"><img src="./images/icon-up.svg" alt="up">99 Today</span>
+          <span class="todays-stats"><img src="./images/icon-up.svg" alt="up"> 99 Today</span>
         </div>
         <div class="card">
           <div class="usern-info">
@@ -75,18 +78,18 @@
             <h2>11k</h2>
             <span>FOLLOWERS</span>
           </div>
-          <span class="todays-stats"><img src="./images/icon-up.svg" alt="up">1099 Today</span>
+          <span class="todays-stats"><img src="./images/icon-up.svg" alt="up"> 1099 Today</span>
         </div>
         <div class="card">
           <div class="usern-info">
             <img src="./images/icon-youtube.svg" alt="facebook">
-            <span class="username">@alnahian2003</span>
+            <span class="username">Al Nahian</span>
           </div>
           <div class="followers">
             <h2>8239</h2>
             <span>SUBSCRIBERS</span>
           </div>
-          <span class="todays-stats"><img src="./images/icon-down.svg" alt="down">144 Today</span>
+          <span class="todays-stats-down"><img src="./images/icon-down.svg" alt="down"> 144 Today</span>
         </div>
 
       </div>
@@ -96,123 +99,140 @@
     <div class="overview">
       <h2>Overview - Today</h2>
       <div class="cards">
-        <div class="card card-overview">
+        <div class="card-overview">
           <div class="card-items">
-            <p class="card-title">Page Views</p>
-            <h3 class="number">
-              87
-            </h3>
-          </div>
-          <div class="stats">
-            <img src="./images/icon-facebook.svg" alt="facebook">
-            <div class="rate">
-              <img src="./images/icon-up.svg" alt="up">
-              <span class="rate-up">3%</span>
+            <div class="card-top">
+              <p class="card-title">Page Views</p>
+              <img class="social-icons" src="./images/icon-facebook.svg" alt="facebook">
+            </div>
+            <div class="card-bottom">
+              <h3 class="number">
+                87
+              </h3>
+              <div class="rate">
+                <img src="./images/icon-up.svg" alt="up">
+                <span class="rate-up">3%</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card card-overview">
+        <div class="card-overview">
+
           <div class="card-items">
-            <p class="card-title">Likes</p>
-            <h3 class="number">
-              52
-            </h3>
-          </div>
-          <div class="stats">
-            <img src="./images/icon-facebook.svg" alt="facebook">
-            <div class="rate">
-              <img src="./images/icon-down.svg" alt="down">
-              <span class="rate-down">2%</span>
+            <div class="card-top">
+              <p class="card-title">Likes</p>
+              <img class="social-icons" src="./images/icon-facebook.svg" alt="facebook">
+            </div>
+            <div class="card-bottom">
+              <h3 class="number">
+                52
+              </h3>
+              <div class="rate">
+                <img src="./images/icon-down.svg" alt="down">
+                <span class="rate-down">2%</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card card-overview">
+        <div class="card-overview">
           <div class="card-items">
-            <p class="card-title">Likes</p>
-            <h3 class="number">
-              5462
-            </h3>
-          </div>
-          <div class="stats">
-            <img src="./images/icon-instagram.svg" alt="instagram">
-            <div class="rate">
-              <img src="./images/icon-up.svg" alt="up">
-              <span class="rate-up">2257%</span>
+            <div class="card-top">
+              <p class="card-title">Likes</p>
+              <img class="social-icons" src="./images/icon-instagram.svg" alt="instagram">
+            </div>
+            <div class="card-bottom">
+              <h3 class="number">
+                5462
+              </h3>
+              <div class="rate">
+                <img src="./images/icon-up.svg" alt="up">
+                <span class="rate-up">2257%</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card card-overview">
+        <div class="card-overview">
           <div class="card-items">
-            <p class="card-title">Profile Views</p>
-            <h3 class="number">
-              87
-            </h3>
-          </div>
-          <div class="stats">
-            <img src="./images/icon-instagram.svg" alt="instagram">
-            <div class="rate">
-              <img src="./images/icon-up.svg" alt="up">
-              <span class="rate-up">1375%</span>
+            <div class="card-top">
+              <p class="card-title">Profile Views</p>
+              <img class="social-icons" src="./images/icon-instagram.svg" alt="instagram">
+            </div>
+            <div class="card-bottom">
+              <h3 class="number">
+                52k
+              </h3>
+              <div class="rate">
+                <img src="./images/icon-up.svg" alt="up">
+                <span class="rate-up">1375%</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card card-overview">
+        <div class="card-overview">
           <div class="card-items">
-            <p class="card-title">Retweets</p>
-            <h3 class="number">
-              117
-            </h3>
-          </div>
-          <div class="stats">
-            <img src="./images/icon-twitter.svg" alt="twitter">
-            <div class="rate">
-              <img src="./images/icon-up.svg" alt="up">
-              <span class="rate-up">303%</span>
+            <div class="card-top">
+              <p class="card-title">Retweets</p>
+              <img class="social-icons" src="./images/icon-twitter.svg" alt="twitter">
+            </div>
+            <div class="card-bottom">
+              <h3 class="number">
+                117
+              </h3>
+              <div class="rate">
+                <img src="./images/icon-up.svg" alt="up">
+                <span class="rate-up">303%</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card card-overview">
+        <div class="card-overview">
           <div class="card-items">
-            <p class="card-title">Likes</p>
-            <h3 class="number">
-              507
-            </h3>
-          </div>
-          <div class="stats">
-            <img src="./images/icon-twitter.svg" alt="twitter">
-            <div class="rate">
-              <img src="./images/icon-up.svg" alt="up">
-              <span class="rate-up">553%</span>
+            <div class="card-top">
+              <p class="card-title">Likes</p>
+              <img class="social-icons" src="./images/icon-twitter.svg" alt="twitter">
+            </div>
+            <div class="card-bottom">
+              <h3 class="number">
+                507
+              </h3>
+              <div class="rate">
+                <img src="./images/icon-up.svg" alt="up">
+                <span class="rate-up">553%</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card card-overview">
+        <div class="card-overview">
           <div class="card-items">
-            <p class="card-title">Likes</p>
-            <h3 class="number">
-              107
-            </h3>
-          </div>
-          <div class="stats">
-            <img src="./images/icon-youtube.svg" alt="youtube">
-            <div class="rate">
-              <img src="./images/icon-down.svg" alt="down">
-              <span class="rate-down">19%</span>
+            <div class="card-top">
+              <p class="card-title">Likes</p>
+              <img class="social-icons" src="./images/icon-youtube.svg" alt="youtube">
+            </div>
+            <div class="card-bottom">
+              <h3 class="number">
+                107
+              </h3>
+              <div class="rate">
+                <img src="./images/icon-down.svg" alt="down">
+                <span class="rate-down">19%</span>
+              </div>
             </div>
           </div>
         </div>
-        <div class="card card-overview">
+        <div class="card-overview">
           <div class="card-items">
-            <p class="card-title">Total Views</p>
-            <h3 class="number">
-              1407
-            </h3>
-          </div>
-          <div class="stats">
-            <img src="./images/icon-youtube.svg" alt="youtube">
-            <div class="rate">
-              <img src="./images/icon-down.svg" alt="down">
-              <span class="rate-down">12%</span>
+            <div class="card-top">
+              <p class="card-title">Total Views</p>
+              <img class="social-icons" src="./images/icon-youtube.svg" alt="youtube">
+            </div>
+            <div class="card-bottom">
+              <h3 class="number">
+                1407
+              </h3>
+              <div class="rate">
+                <img src="./images/icon-down.svg" alt="down">
+                <span class="rate-down">12%</span>
+              </div>
             </div>
           </div>
         </div>
